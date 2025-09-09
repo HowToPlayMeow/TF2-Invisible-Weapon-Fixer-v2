@@ -18,7 +18,7 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-    g_hReloadDelay = CreateConVar("sm_spawn_delay", "0.25", "Delay before reloading player loadout on spawn", FCVAR_NONE,true, 0.0,true, 5.0);
+    g_hReloadDelay = CreateConVar("sm_fixer_spawn_delay", "0.25", "Delay before reloading player loadout on spawn", FCVAR_NONE,true, 0.0,true, 5.0);
 
     HookEvent("player_spawn", Event_PlayerSpawn, EventHookMode_Post);
 }
