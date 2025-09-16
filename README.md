@@ -15,6 +15,6 @@
   -  ConVar `sm_fixer_spawn_delay`
   -  Fixed Delay, No Bugs.
 # ConVar
--  `sm_fixer_spawn_delay` `0.25` **(Default)** - _Min = 0, Max = 5_
+-  `sm_fixer_spawn_delay` `0.25` **(Default)** - _Min = 0s, Max = 30s_
 # Command
 -  `sm_resetitemplayer` `<target>` - _Works like spawn but as a command_
